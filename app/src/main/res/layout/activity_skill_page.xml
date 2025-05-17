@@ -4,20 +4,45 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/skillInfo"
-    android:orientation="vertical"
-    android:gravity="center"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".personalInfo">
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Skills"
+        android:textColor="#BD3016"
+        android:gravity="center"
+        android:paddingTop="32dp"
+        android:paddingBottom="16dp"
+        android:background="#DFE3DF"
+        android:textSize="24sp"/>
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"/>
+
+
+    <Button
+        android:id="@+id/viewProject"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="View Project"
         android:layout_gravity="center"
-        android:gravity="center"
-        android:background="#ED4646"
-        android:text="My skills List"
-        android:textStyle="italic"
-        android:textSize="25sp"/>
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        />
+
+
+
+
+
 
 </LinearLayout>
