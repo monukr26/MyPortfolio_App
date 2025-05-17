@@ -25,15 +25,26 @@
             android:text="About Me"
             android:textStyle="bold"
             android:textSize="25dp"
-            android:layout_margin="25dp"/>
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="I am an Android Developer passionate about creating intuitive and scalable mobile applications. Skilled in Java, Kotlin, and Jetpack libraries, I enjoy building apps that offer seamless user experiences. "
+            android:textStyle="italic"
+            android:textSize="15dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="35dp"/>
+
 
         <de.hdodenhof.circleimageview.CircleImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
             android:layout_gravity="end"
             android:layout_marginTop="25dp"
             android:layout_marginRight="19dp"
-            android:src="@drawable/monu" />
+            android:src="@drawable/diwalimk" />
     </androidx.cardview.widget.CardView>
 
     <Button
