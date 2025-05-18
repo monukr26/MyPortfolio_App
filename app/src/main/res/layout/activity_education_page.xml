@@ -5,19 +5,188 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/eduInfo"
     android:orientation="vertical"
-    android:gravity="center"
+    android:background="#97CFD8"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".personalInfo">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:background="#ED4646"
-        android:text="All Education details wil show here "
-        android:textStyle="italic"
-        android:textSize="25sp"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="4dp"
+        android:layout_margin="12dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:src="@drawable/vmhe"
+                android:layout_margin="6dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VM High School, Siwan"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Board Name: BSEB, Patna"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Percentage : 86.4%"
+                android:textColor="#D6731C"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:layout_marginLeft="12dp"/>
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="123dp"
+            android:layout_height="35dp"
+            android:id="@+id/matric"
+            android:text="View 10th Result"
+            android:padding="5dp"
+            android:layout_gravity="end|bottom"
+            android:layout_marginBottom="25dp"
+            android:layout_marginRight="12dp"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="4dp"
+        android:layout_margin="12dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:src="@drawable/jnvsiwan"
+                android:layout_margin="6dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JN Vidyalaya, Siwan"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Board Name: CBSE, Delhi"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:layout_marginLeft="10dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Percentage : 91.6%"
+                android:textColor="#D6731C"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:layout_marginLeft="12dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="123dp"
+            android:layout_height="35dp"
+            android:id="@+id/inter"
+            android:text="View 12th Result"
+            android:padding="5dp"
+            android:layout_gravity="end|bottom"
+            android:layout_marginBottom="25dp"
+            android:layout_marginRight="12dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="4dp"
+        android:layout_margin="12dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:src="@drawable/dgi"
+                android:layout_margin="6dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DGI, Greater Noida"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="University: AKTU, Lucknow"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CGPA : 7.82 (Till 5th Sem)"
+                android:textColor="#D6731C"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:layout_marginLeft="12dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="123dp"
+            android:layout_height="35dp"
+            android:id="@+id/btech"
+            android:text="Btech Result"
+            android:padding="5dp"
+            android:layout_gravity="end|bottom"
+            android:layout_marginBottom="25dp"
+            android:layout_marginRight="12dp"/>
+
+
+
+    </androidx.cardview.widget.CardView>
 
 </LinearLayout>
