@@ -44,7 +44,7 @@
             android:layout_gravity="end"
             android:layout_marginTop="25dp"
             android:layout_marginRight="19dp"
-            android:src="@drawable/diwalimk" />
+            android:src="@drawable/monumirror" />
     </androidx.cardview.widget.CardView>
 
     <Button

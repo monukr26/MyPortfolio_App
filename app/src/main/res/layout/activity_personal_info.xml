@@ -5,19 +5,245 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/pInfo"
     android:orientation="vertical"
-    android:gravity="center"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".personalInfo">
 
+
+
+   <de.hdodenhof.circleimageview.CircleImageView
+       android:layout_width="180dp"
+       android:layout_height="180dp"
+       android:layout_gravity="center"
+       android:layout_marginTop="70dp"
+       android:src="@drawable/monulinkdn">
+
+   </de.hdodenhof.circleimageview.CircleImageView>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Monu Kumar"
+        android:textStyle="normal"
         android:layout_gravity="center"
-        android:gravity="center"
-        android:background="#ED4646"
-        android:text="Personal Info comming soon"
-        android:textStyle="italic"
-        android:textSize="25sp"/>
+        android:padding="10dp"
+        android:textSize="30dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/baseline_local_phone_24"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Phone :"
+                        android:textSize="18dp"
+                        android:layout_margin="4dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9523250916"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="4dp"
+                        android:textStyle="normal"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/baseline_email_24"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Email :"
+                        android:textSize="18dp"
+                        android:layout_margin="4dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="mkrtarwan11@gmail.com"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="4dp"
+                        android:textStyle="normal"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/baseline_location_pin_24"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Current Address :"
+                        android:textSize="18dp"
+                        android:layout_margin="4dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Surajpur (201306) , Greater Noida"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="4dp"
+                        android:textStyle="normal"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/baseline_location_pin_24"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Permanent Address :"
+                        android:textSize="18dp"
+                        android:layout_margin="4dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tarwan, Siwan (841226) , Bihar"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="4dp"
+                        android:textStyle="normal"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/checkEdu"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Education"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
 
 </LinearLayout>

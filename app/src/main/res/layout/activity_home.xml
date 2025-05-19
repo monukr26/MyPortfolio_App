@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:orientation="vertical"
-    android:background="@drawable/monu"
+    android:background="@drawable/diwalimk"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     tools:context=".HomeActivity">
@@ -22,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Monu Kumar"
-            android:textColor="#FF9800"
+            android:textColor="#3C362D"
             android:textSize="20sp"
             android:textStyle="bold"
             android:layout_gravity="center"

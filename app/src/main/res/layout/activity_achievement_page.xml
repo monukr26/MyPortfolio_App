@@ -5,19 +5,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/achInfo"
     android:orientation="vertical"
-    android:gravity="center"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".personalInfo">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="My Achievement"
+        android:textColor="@color/white"
         android:layout_gravity="center"
         android:gravity="center"
-        android:background="#ED4646"
-        android:text="My Achievement uploading..."
-        android:textStyle="italic"
-        android:textSize="25sp"/>
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:background="#A30B0B"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/achievementRv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:clipToPadding="false"/>
+
+
+
+
 
 </LinearLayout>
