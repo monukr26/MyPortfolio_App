@@ -27,22 +27,22 @@ class AchievementPage : AppCompatActivity() {
 
 
         val achievement = listOf(
-            Achievement("Certification","DSA(C++)", R.drawable.cpp) ,
-            Achievement("Certification","JavaScript", R.drawable.js),
-            Achievement("Certification","Data Analytics", R.drawable.data),
-            Achievement("Certification","C Programming", R.drawable.c),
-            Achievement("Certification","C Programming", R.drawable.c),
-            Achievement("Certification","C Programming", R.drawable.c),
-            Achievement("Certification","C Programming", R.drawable.c),
-            Achievement("Certification","C Programming", R.drawable.c),
-            Achievement("Certification","C Programming", R.drawable.c),
-            Achievement("Certification","C Programming", R.drawable.c)
+            Achievement("Certification",R.drawable.dsa,"DSA(C++)", R.drawable.cpp) ,
+            Achievement("Certification",R.drawable.dsa,"JavaScript", R.drawable.js),
+            Achievement("Certification",R.drawable.dsa,"Data Analytics", R.drawable.data),
+            Achievement("LeetCode",R.drawable.dsa,"50 Days Badge 2025", R.drawable.star),
+            Achievement("LeetCode",R.drawable.dsa,"100 Days Badge 2025", R.drawable.ribbon),
+            Achievement("LeetCode",R.drawable.dsa,"50 Days Badge 2024", R.drawable.star),
+            Achievement("Certification",R.drawable.dsa,"C Programming", R.drawable.c)
+
         )
 
         adapter = AchievementAdapter(achievement)
 
         recyclerView.layoutManager = GridLayoutManager(this, 2)
         recyclerView.adapter = adapter
+
+
     }
 
 

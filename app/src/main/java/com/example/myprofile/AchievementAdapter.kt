@@ -1,5 +1,7 @@
 package com.example.myprofile
 
+import android.app.Dialog
+import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -33,6 +35,20 @@ class AchievementAdapter(private val achievement: List<Achievement>) :
         holder.title.text = achievement.title
         holder.subject.text = achievement.subject
         holder.imageView.setImageResource(achievement.imageRes)
+
+        holder.itemView.setOnClickListener {
+            showImageDialog(holder.imageView.context, achievement.certificateItem)
+        }
+
+    }
+
+    private fun showImageDialog(context: Context, imageRes: Int) {
+        val dialog = Dialog(context)
+         dialog.setContentView(R.layout.achdailogimg)
+
+        val imageView = dialog.findViewById<ImageView>(R.id.imaged)
+        imageView.setImageResource(imageRes)
+        dialog.show()
 
     }
 
