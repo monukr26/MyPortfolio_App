@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#8FC9E4"
+    android:background="@drawable/images"
     tools:context=".DashBoard">
 
     <androidx.cardview.widget.CardView
@@ -70,7 +70,7 @@
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:id="@+id/info"
-            app:cardBackgroundColor="#F3E5F5"
+            app:cardBackgroundColor="#FFFFFF"
             android:layout_margin="10dp"
             app:cardCornerRadius="12dp"
             app:cardElevation="3dp">
